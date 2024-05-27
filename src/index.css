@@ -1,5 +1,5 @@
  body {
-    background-color: white;
+    background-color: rgb(164, 161, 161);
     display: block;
     width: auto;
     font-family: "Roboto", sans-serif;
@@ -8,8 +8,8 @@
   background: white;
   max-width: 600px;
   margin: 45px auto;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
-  border-radius: 16px;
+  box-shadow: 0 30px 50px rgba(43, 5, 133, 0.08);
+  border-radius: 20px;
   padding: 30px;
 }
 
@@ -52,6 +52,12 @@ main{
     margin: 0;
     font-size: 38px;
     line-height: 48px;
+}
+.weather-app-details{
+    opacity: 60%;
+}
+.humidity, .wind {
+    color: #f65282;
 }
 .weather-app-temperature{
    font-size: 70px;
